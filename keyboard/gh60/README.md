@@ -27,6 +27,10 @@ To build firmware binary hex file with a certain keymap just do `make` with `KEY
 
     $ make KEYMAP=[poker|poker_set|poker_bit|plain|hasu|spacefn|hhkb|<name>]
 
+### Example
+
+    $ make REV=CHN KEYMAP=poker_bit dfu
+
 
 ### 1  Poker
 [keymap_poker.c](keymap_poker.c) emulates original Poker layers
